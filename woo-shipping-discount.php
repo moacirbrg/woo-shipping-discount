@@ -4,11 +4,11 @@
  * Plugin URI:           https://github.com/moacirbrg/woo-shipping-discount
  * Description:          Shipping discounts for WooCommerce
  * Author:               Moacir Braga
- * Version:              0.0.1
+ * Version:              0.1.0
  * License:              GPLv2 or later
  * Text Domain:          woo-shipping-discount
  * Domain Path:          /languages
- * WC requires at least: 4.6.0
+ * WC requires at least: 4.9.0
  * WC tested up to:      4.9.8
  *
  * Copyright (C) 2018  Moacir Braga
