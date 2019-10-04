@@ -47,7 +47,7 @@ class Woo_ShippingDiscount {
 
 		foreach ( $cart_items as $cart_item => $cart_item_values ) {
 			$data = $cart_item_values['data']; /** @var WC_Product_Variation $data */
-			$shipping_discount = self::get_shipping_discount_by_product( $data->get_parent_id() ) * $cart_item_values['quantity'];
+			$shipping_discount = self::get_shipping_discount_by_product( $data->get_id() ) * $cart_item_values['quantity'];
 			$total_discount += $shipping_discount;
 		}
 
